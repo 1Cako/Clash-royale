@@ -1,0 +1,244 @@
+
+.feedback-btn > button{
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 7px 20px 7px 20px;
+    font-weight: 400;
+}
+.feedback-btn > button::before{
+   content: url(../assets/img/chat-text.svg);
+   width: 16px;
+   height: 16px;
+   max-height: 16px;
+   aspect-ratio: 1;
+   display: inline-block;
+   margin-top: 3px;
+}
+.font-kanit{
+    font-family: 'kanit', sans-serif;
+}
+.navbar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    padding-bottom: 20px;
+}
+.navbar-brand img{
+    width: 200px; 
+}
+.navbar-brand:hover{
+    color: #0d6efd;
+}
+.showcase{
+    padding-top: 50px;
+    background-color: #f8f9fa;
+}
+.phone-screen  img{
+    width: 400px;
+    margin-top: 125px;
+    margin-left: 160px;
+}
+.showcase h1{
+    font-size: 4.5rem;
+    font-weight: 200;
+    margin-top: 200px;
+}
+.showcase p{
+    opacity: .8;
+    font-size: 1.2em;
+}
+.play-store > img {
+    width: 150px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 200px;
+    
+}
+.app-store > img{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+.ping-box{
+    background-image: url(../assets/img/bg_gamesocial_clashroyale.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.ping-box h1{
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+.ping-box p{
+    color: white;
+    opacity: .9;
+    font-weight: 400px;
+}
+.ping-box img{
+    width: 400px;
+    display: block;
+    margin-top: 20px;
+   
+}
+ svg{
+    color:  #9f1ae2;
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 200px;
+}
+.device-mockups  img {
+    width: 700px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.device-mockups h5{
+    text-align: center;
+}
+.device-mockups-right  img{
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.device-mockups-right h5{
+    text-align: center;
+    margin-left: 200px;
+
+}
+.play{
+    z-index: 1;
+}
+.device-text h5{
+    padding-top: 25px;
+    padding-left: 130px;
+    font-size: 2rem;
+}
+.device-text p{
+    padding-left: 100px;
+    opacity: .8;
+}
+.device-header-size{
+  margin-left: 25px;
+}
+.features{
+    margin-bottom: 50px;
+}
+.cta{
+    background-image: url(../assets/img/aboutus_hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.cta > *{
+    z-index: 10;
+    position: relative;
+}
+.cta h5{
+    margin-top: 300px;
+    font-size: 4rem;
+    color: white;
+    font-weight: 100;
+}
+.cta::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    background-image: linear-gradient(to right, #000000, #000000 );
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 0;
+    mix-blend-mode: hard-light;
+}
+.cta button{
+   border-radius: 50px;
+   padding: 10px 20px 10px 20px;
+   margin-bottom: 250px;
+}
+.cta button a{
+    text-decoration: none;
+    color: #fff;
+}
+.cta button a:hover{
+    color: #000000;
+}
+.bottom-ping-box{
+    background: linear-gradient(45deg, #2780e8, #2461c8) !important;
+}
+#see-all a {
+    text-decoration: none; 
+    color: #000000;
+}
+.bottom-ping-box  img{
+    width: 250px;
+    justify-content: right;
+    display: block;
+    margin-left: auto;
+}
+.bottom-ping-box h1{
+    color: white;
+    text-align: left;
+    font-weight: 900;
+    margin-top: 75px;
+}
+.bottom-ping-box button{
+    justify-content: right;
+    display: block;
+    margin-top: 25px;
+}
+.footer{
+    background-color: #000000;
+    padding-top: 50px;
+    padding-bottom: 25px ;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    opacity: .5;
+    font-size: 0.9em;
+}
+.modal-header{
+    background: linear-gradient(45deg, #2780e8, #2461c8) !important;
+}
+.modal-title {
+    color: white;
+}
+form{
+    margin-bottom: 0px !important;
+}
+
+
+
+/* MOBİL */
+
+@media screen and (max-width:992px) {
+    .phone-screen > img{
+        width: 350px;
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }  
+
+    .ping-box img{
+        width: 350px;
+    }
+
+    .features img {
+        width: 350px;
+        margin-left: 0px;
+    }
+    .features h5 {
+        margin-left: 0px;
+    }
+}
+
+
